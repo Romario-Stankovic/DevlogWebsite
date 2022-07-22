@@ -1,0 +1,510 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+}
+
+/* Navigation */
+nav{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px auto 30px auto;
+    border-radius: 100px;
+    width: 95%;
+    box-shadow: 5px 5px 30px #A5A5A5;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 25px;
+}
+
+nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li a:hover{
+    color:	#7F7F7F;
+}
+
+.weather {
+    border-radius: 40px;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.weather img {
+    height: 70px;
+    float: left;
+}
+
+.weather .temperature {
+    position: absolute;
+    top: -10;
+    left: 75;
+    display: inline-block;
+    font-size: 24px;
+}
+.weather .city {
+    position: absolute;
+    top: 30;
+    left: 75;
+    display: inline-block;
+    font-size: 12px;
+}
+
+ /* Home */
+ .banner {
+     width: 95%;
+     margin: 0 auto;
+     border-radius: 30px;
+     background-color: #FFFFFF;
+     overflow: hidden;
+     position: relative;
+     text-align: center;
+     margin-bottom: 15px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 52px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 5px #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeContent{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding-top: 15px;
+}
+
+.homeContent h1 {
+    text-align: center;
+    font-size: 21px;
+    color: #7F7F7F;
+}
+
+.qadevlogs {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.qadevlog {
+    width: 350px;
+    display: inline-block;
+}
+
+.qadevlog img{
+    margin: 0 25px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.qadevlog h1 a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.qadevlog h1 a:hover {
+    text-decoration: underline;
+}
+
+.qadevlog img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.qadevlog img:hover {
+    opacity: 70%;
+    transform: scale(1.05);
+}
+
+/* About */
+
+.aboutContent {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.personalInfo{
+    width: 49%;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    position: relative;
+    float: left;
+}
+
+.businessInfo {
+    width: 49%;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    float: right;
+}
+
+.personalInfo h1 {
+    font-size: 21px;
+    text-align: center;
+    color: #7F7F7F;
+}
+
+.personalInfo img {
+    margin: 0 15px 0 15px;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.personalInfo .basicInfo{
+    position: absolute;
+    top: 40;
+    left: 54%;
+    width: 40%;
+    
+
+}
+
+.personalInfo .aboutParagraph, .businessInfo .aboutParagraph {
+    padding: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.businessInfo h1 {
+    font-size: 21px;
+    text-align: center;
+    color: #7F7F7F;
+}
+
+.businessInfo img {
+    width: 90%;
+    margin: 0 5%;
+    border-radius: 15px;
+}
+
+.socialMediaLinks{
+    width: 49%;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    float: left;
+    text-align: center;
+}
+
+.socialMediaLinks img {
+    margin: 10px;
+    width: 40px;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.socialMediaLinks img:hover{
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+
+.cleardiv {
+    clear: both;
+}
+
+/* Devlogs */
+
+.devloglist {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+
+.postHeader {
+    text-align: center;
+    color: #7F7F7F;
+    margin-bottom: 30px;
+    font-size: 21px;
+}
+
+.devlog {
+    position:relative;
+    margin: 20px auto;
+    width: 90%;
+    height: 150px;
+    border-bottom: 1px solid #7F7F7F;
+    padding-bottom: 20px;
+}
+
+.devlog img{
+    width: 250px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.devlog img:hover{
+    opacity: 70%;
+    transform: scale(1.05);
+}
+
+.devlog h1{
+    margin: 0;
+}
+
+.devlog h1 a{
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.devlog h1 a:hover{
+    text-decoration: underline;
+}
+
+.devlog h6 {
+    color: #7F7F7F;
+    margin: 0;
+}
+
+.devlog p{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 25px;
+}
+
+.devlog .learnmore{
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.devlog .learnmore a{
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+.devlog .learnmore a:hover{
+    text-decoration: underline;
+}
+
+/* Post */
+.postContent {
+    padding: 15px;
+    text-align: center;
+    width: 70%;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.postContent h1 {
+    font-size: 21px;
+    color: #7F7F7F;
+}
+
+.scrollToTopButton {
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+    outline: none;
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.scrollToTopButton:hover{
+    background-color: #7F7F7F;
+    color: #FFFFFF;
+}
+
+/* Contact */
+
+.contact {
+    position: relative;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 750px;
+    height: 450px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.contact h1 {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    color: #7F7F7F;
+}
+
+.contact img{
+    width: 225px;
+    float:left;
+    margin-right: 30px;
+}
+
+.contact form label{
+    display: block;
+}
+
+.inputField, .textareaField{
+    display: block;
+    width: 450px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #7F7F7F;
+    margin-bottom: 25px;
+    resize: none;
+}
+
+form label mark{
+    background: none;
+    color: #FF0000;
+}
+
+.textareaField {
+    height: 100px;
+}
+
+.inputField, .textareaField, .submitButton:focus{
+    outline: none;
+}
+
+.inputField:focus {
+    border-bottom: 2px solid #0288D1;
+}
+
+.textareaField:focus{
+    border-bottom: 2px solid #0288D1;
+}
+
+.submitButton {
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.submitButton:hover{
+    background-color: #A5A5A5;
+    color: #FFFFFF;
+}
+
+.contact p {
+    font-size: 12px;
+}
+
+.overlayBackground {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000055;
+}
+
+.confirmPanel {
+    position: relative;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 250px;
+    margin: 10% auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.confirmPanel img{
+    max-height: 125px;
+    display: block;
+    margin: auto;
+}
+
+.confirmPanel button {
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+    outline: none;
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.confirmPanel button:hover{
+    background-color: #A5A5A5;
+    color: #FFFFFF;
+}
+
+.reviewMessage {
+    position: relative;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 300px;
+    margin: 10% auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.reviewMessage p{
+    max-width: 100%;
+}
+
+.reviewMessage h1 {
+    text-align: center;
+    font-size: 21px;
+    color: #7F7F7F;
+}
+
+.reviewMessage button{
+    position: absolute;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+    outline: none;
+    bottom: 15px;
+    left: 225px;
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.reviewMessage button:hover{
+    background-color: #A5A5A5;
+    color: #FFFFFF;
+}
+
+/* Footer */
+footer{
+    margin: 30px auto 30px auto;
+    padding: 10px 0px;
+    border-radius: 100px;
+    width: 95%;
+    background-color:#595959;
+    color:#FFFFFF;
+    text-align: center;
+    box-shadow: 5px 5px 30px #7F7F7F;
+}
