@@ -1,12 +1,12 @@
 <h1 align="center">Devlog Website</h1>
 
-This project was given as a final exam project for "Web Design" at Singidunum University. The goal of this course was to teach students about fundamentals of web design and how static web pages are created. For the final exam, we were tasked to create a multi-page website using vanilla HTML, CSS and JavaScript.
+"Devlog Website" is a final exam project from the "Web Design" course at Singidunum University. The course was designed to teach students the fundamentals of web design using HTML5, CSS3 and JavaScript. For the final exam, students were tasked to create a static website with multiple pages using these technologies.
 
-The website had a free topic but had to meet some minimum requirements. There should be at least 4 different pages, we had to use CSS to style the website and we had to include a Web API of some kind to interact with through our webpage. One other requirement was to have a contact form where we would validate user input through JavaScript and RegEx.
+The topic for the website was free, but there were some minimal requirements that should be followed, such as: minimum four pages, each page should be styled using one css file, there should be at least one call to an external API, and we had to have a form that uses RegEx to validate the user input.
 
 ## 💡 Features
 
-This website has the following pages:
+This website features the following pages:
 
 - Home
 - About
@@ -23,22 +23,22 @@ This website has the following pages:
 ## 📷 Screenshots
 
 ### Home
-![Home](./.github/images/home.png?raw=true)
+![Home](.github/images/home.png?raw=true)
 
 ### About
-![About](./.github/images/about.png?raw=true)
+![About](.github/images/about.png?raw=true)
 
 ### Devlogs
-![Devlogs](./.github/images/devlogs.png?raw=true)
+![Devlogs](.github/images/devlogs.png?raw=true)
 
 ### Contact
-![Contact](./.github/images/contact.png?raw=true)
+![Contact](.github/images/contact.png?raw=true)
 
 ## ⚡ Getting Started
 
 ### 🛠 Requirements:
 
-- Nothing
+- N/A
 
 ### 📖 Guide:
 
